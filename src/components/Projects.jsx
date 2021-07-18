@@ -7,9 +7,12 @@ import redux from "../Images/redux30.png";
 import material from "../Images/material30.png";
 import node from "../Images/node30.png";
 import mongo from "../Images/mongo30.png";
+import socket from "../Images/socket.png";
+import js from "../Images/js30.png";
 import ss from "../Images/ss.jpg";
 import milaap from "../Images/milaap.png";
 import buffer from "../Images/buffer.png";
+import chat from "../Images/chat.png";
 
 function Projects() {
   return (
@@ -36,7 +39,12 @@ function Projects() {
               </a>
             </div>
             <div>
-              <a href="">Demo</a>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/15l6ePtzfla6EYvaGEbOrUYeMolgeFCYk/view?usp=sharing"
+              >
+                Demo
+              </a>
             </div>
           </div>
           <hr />
@@ -79,7 +87,7 @@ function Projects() {
               </a>
             </div>
             <div>
-              <a href="">Demo</a>
+              <a target="_blank" href="https://milapp-clone.netlify.app">Demo</a>
             </div>
           </div>
           <hr />
@@ -94,10 +102,10 @@ function Projects() {
               <img src={css} alt="" />
             </div>
             <div>
-              <img src={node} alt="" />
+              <img src={material} alt="" />
             </div>
             <div>
-              <img src={mongo} alt="" />
+              <img src={html} alt="" />
             </div>
           </div>
         </div>
@@ -122,36 +130,31 @@ function Projects() {
               </a>
             </div>
             <div>
-              <a href="">Demo</a>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/128YNOayKEyEM-JlTX02NwkDpjwwJAwY9/view?usp=sharing"
+              >
+                Demo
+              </a>
             </div>
           </div>
           <hr />
           <div className={styles.tech}>
             <div>
-              <img src={react} alt="" />
+              <img src={html} alt="" />
             </div>
             <div>
-              <img src={redux} alt="" />
+              <img src={js} alt="" />
             </div>
             <div>
               <img src={css} alt="" />
-            </div>
-            <div>
-              <img src={node} alt="" />
-            </div>
-            <div>
-              <img src={mongo} alt="" />
             </div>
           </div>
         </div>
 
         <div className={styles.card}>
           <div>
-            <img
-              width="100%"
-              src="https://ora.pm/posts/assets/marketing-project.png"
-              alt=""
-            />
+            <img width="100%" src={chat} alt="" />
           </div>
           <h3>Chat app</h3>
           <br />
@@ -161,10 +164,10 @@ function Projects() {
           </p>
           <div className={styles.aDiv}>
             <div>
-              <a href="">Github</a>
+              <a target="_blank" href="https://github.com/manish7377/chat-app">Github</a>
             </div>
             <div>
-              <a href="">Demo</a>
+              <a target="_blank" href="https://chat-app-by-manish.netlify.app">Demo</a>
             </div>
           </div>
           <hr />
@@ -173,16 +176,13 @@ function Projects() {
               <img src={react} alt="" />
             </div>
             <div>
-              <img src={redux} alt="" />
+              <img src={html} alt="" />
             </div>
             <div>
               <img src={css} alt="" />
             </div>
             <div>
-              <img src={node} alt="" />
-            </div>
-            <div>
-              <img src={mongo} alt="" />
+              <img src={socket} alt="" />
             </div>
           </div>
         </div>
