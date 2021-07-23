@@ -45,6 +45,7 @@
   .skills > div {
     display: flex;
     align-items: center;
+    font-size: 5px;
     justify-content: center;
     border: 2px solid rgb(151, 151, 151);
     width: 50px;
