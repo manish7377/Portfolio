@@ -41,7 +41,7 @@ function Projects() {
             <div>
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/15l6ePtzfla6EYvaGEbOrUYeMolgeFCYk/view?usp=sharing"
+                href="https://shoppersstop-clone-sigma.vercel.app/"
               >
                 Demo
               </a>
@@ -87,7 +87,9 @@ function Projects() {
               </a>
             </div>
             <div>
-              <a target="_blank" href="https://milapp-clone.netlify.app">Demo</a>
+              <a target="_blank" href="https://milapp-clone.netlify.app">
+                Demo
+              </a>
             </div>
           </div>
           <hr />
@@ -164,10 +166,14 @@ function Projects() {
           </p>
           <div className={styles.aDiv}>
             <div>
-              <a target="_blank" href="https://github.com/manish7377/chat-app">Github</a>
+              <a target="_blank" href="https://github.com/manish7377/chat-app">
+                Github
+              </a>
             </div>
             <div>
-              <a target="_blank" href="https://chat-app-by-manish.netlify.app">Demo</a>
+              <a target="_blank" href="https://chat-app-by-manish.netlify.app">
+                Demo
+              </a>
             </div>
           </div>
           <hr />
