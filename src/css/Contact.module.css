@@ -32,6 +32,9 @@
     cursor: pointer;
     padding: 10px 20px;
 }
+.visible2{
+  display:none;
+}
 @media screen and (max-width: 480px){
   .statsDiv {
     display: flex;
@@ -39,8 +42,11 @@
     justify-content: space-around;
     margin: 10px 0px 10px 0px;
   }
-  .statsDiv>img{
-   width:100% !important;
+  .visible1{
+    display: none;
+  }
+  .visible2{
+    display:flex;
   }
   .contactMain{
     margin-top:100px;

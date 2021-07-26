@@ -9,8 +9,6 @@ import nodejs from "../Images/nodejs.png";
 import styledcomponents from "../Images/styledcomponents.png";
 import git from "../Images/git.png";
 import material from "../Images/material.png";
-import postman from "../Images/postman.png";
-import npm from "../Images/npm.png";
 import frontend from "../Images/frontend.png";
 import backend from "../Images/backend.png";
 import ds from "../Images/ds.png";
@@ -66,14 +64,6 @@ function TechStacks() {
         <div>
           <img width="50%" src={git} alt="" />
           <div>GIT</div>
-        </div>
-        <div>
-          <img width="50%" src={postman} alt="" />
-          <div>POSTMAN</div>
-        </div>
-        <div>
-          <img width="50%" src={npm} alt="" />
-          <div>NPM</div>
         </div>
         <div>
           <img width="50%" src={material} alt="" />

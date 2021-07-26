@@ -1,5 +1,4 @@
 .about {
-  /* height: 100vh; */
   display: flex;
   justify-content: center;
   padding-top: 15vh;
@@ -12,11 +11,13 @@
 }
 
 .profile {
-  height: 190px;
-  width: 190px;
+  height: 220px;
+  width: 220px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
   -webkit-box-shadow: -1px 3px 31px 3px rgba(93, 253, 30, 0.75);
   -moz-box-shadow: -1px 3px 31px 3px rgba(93, 253, 30, 0.75);
   box-shadow: -1px 3px 31px 3px rgba(93, 253, 30, 0.75);
@@ -57,6 +58,7 @@
   flex-direction: row;
   cursor: pointer;
   gap: 10px;
+  justify-content: center;
 }
 
 .linksDiv img:hover{
@@ -84,7 +86,9 @@
 
 .top{
   display: flex;
+  position:fixed;
   color: white;
+  width: 100%;
   background:#610c0c;
   padding: 5px;
   font-family: 'Brush Script MT', cursive;
@@ -136,5 +140,8 @@
 @media screen and (max-width: 480px){
   .about{
     padding-top: 5vh;
+  }
+  .linksDiv{
+    justify-content: left;  
   }
 }

@@ -9,7 +9,7 @@ import node from "../Images/node30.png";
 import mongo from "../Images/mongo30.png";
 import socket from "../Images/socket.png";
 import js from "../Images/js30.png";
-import ss from "../Images/ss.jpg";
+import ss from "../Images/ss.png";
 import milaap from "../Images/milaap.png";
 import buffer from "../Images/buffer.png";
 import chat from "../Images/chat.png";
@@ -20,10 +20,10 @@ function Projects() {
       <h1 className={styles.head}>Projects</h1>
       <div className={styles.main}>
         <div className={styles.card}>
-          <div>
+          <div style={{borderBottom:"1px solid black"}}>
             <img width="100%" src={ss} alt="" />
           </div>
-          <h3>Shopperstop Clone</h3>
+          <h4>Shopperstop Clone</h4>
           <br />
           <p className={styles.para}>
             Shoppersstop is an e-commerce website, provides outfits for men,
@@ -68,10 +68,10 @@ function Projects() {
         </div>
 
         <div className={styles.card}>
-          <div>
+          <div style={{borderBottom:"1px solid black"}}>
             <img width="100%" src={milaap} alt="" />
           </div>
-          <h3>Milaap Clone</h3>
+          <h4>Milaap Clone</h4>
           <br />
           <p className={styles.para}>
             Milaap helps needy people for mediacl emergencies and eduction.This
@@ -113,10 +113,10 @@ function Projects() {
         </div>
 
         <div className={styles.card}>
-          <div>
+          <div style={{borderBottom:"1px solid black"}}>
             <img width="100%" src={buffer} alt="" />
           </div>
-          <h3>Buffer Clone</h3>
+          <h4>Buffer Clone</h4>
           <br />
           <p className={styles.para}>
             Buffer helps to maintain social media accounts of customers.
@@ -126,7 +126,7 @@ function Projects() {
             <div>
               <a
                 target="_blank"
-                href="https://github.com/AbhishekSardagi/Buffer"
+                href="https://github.com/manish7377/buffer"
               >
                 Github
               </a>
@@ -134,7 +134,7 @@ function Projects() {
             <div>
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/128YNOayKEyEM-JlTX02NwkDpjwwJAwY9/view?usp=sharing"
+                href="https://manish7377.github.io/buffer/index.html"
               >
                 Demo
               </a>
@@ -155,10 +155,10 @@ function Projects() {
         </div>
 
         <div className={styles.card}>
-          <div>
+          <div style={{borderBottom:"1px solid black"}}>
             <img width="100%" src={chat} alt="" />
           </div>
-          <h3>Chat app</h3>
+          <h4>Chat app</h4>
           <br />
           <p className={styles.para}>
             This chat app privdes real-time message sending and reciving in a

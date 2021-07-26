@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 22%;
   text-align: center;
   border: 1px solid gray;
   box-shadow: 10px 14px 23px -9px rgba(0, 0, 0, 0.75);
@@ -10,6 +10,9 @@
   border-radius: 10px;
   overflow: hidden;
   background: white;
+}
+.card>h4{
+  margin-top:8px;
 }
 
 .head {
@@ -26,12 +29,14 @@
 .tech {
   display: flex;
   justify-content: space-around;
+  margin: 10px;
 }
 a {
   text-decoration: none;
-  margin: 5px 0px;
+  /* margin: 5px 0px; */
   font-size: 20px;
   font-weight: bold;
+  color:blue;
 }
 
 .aDiv {
@@ -42,7 +47,8 @@ a {
 .para {
   font-family: "Lucida Console", "Courier New", monospace;
   color: rgb(77, 75, 75);
-  line-height: 25px;
+  line-height: 20px;
+  padding: 0px 10px;
 }
 
 @media screen and (max-width: 480px){

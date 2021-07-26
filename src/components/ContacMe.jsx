@@ -2,7 +2,8 @@ import React from "react";
 import styles from "../css/Contact.module.css";
 import stats1 from "../Images/stats1.png"; 
 import stats2 from "../Images/stats2.png";
-import stats3 from "../Images/stats3.png";
+import stats3_1 from "../Images/stats3.1.png";
+import stats3_2 from "../Images/stats3.2.png";
 import github from "../Images/github.png";
 import location from "../Images/location.png";
 import phone from "../Images/phone.png";
@@ -21,7 +22,8 @@ function ContacMe() {
         </div>
       </div>
       <div className={styles.statsDiv}>
-        <img width="80%" src={stats3} alt="" />
+        <img className={styles.visible1} src={stats3_1} alt="" />
+        <img className={styles.visible2} src={stats3_2} alt="" />
       </div>
       <div className={styles.div}>
         <div className={styles.contact}>
@@ -34,7 +36,7 @@ function ContacMe() {
         </div>
         <hr />
         <div className={styles.linkDiv}>
-          <a target="_blank" href="mailto:manishnayakpro@gmail.com">
+          <a target="_blank" href="mailto:manishnayak.dev@gmail.com">
             <img src={mail} alt="" />
           </a>
           <a target="_blank" href="tel:+917008939103">
@@ -56,7 +58,7 @@ function ContacMe() {
             <img src={linkedin} alt="" />
           </a>
         </div>
-        <div>Disigned by &#128151;Manish</div>
+        <div>Designed by &#128151;Manish</div>
       </div>
     </div>
   );
