@@ -32,7 +32,7 @@ function Projects() {
           <div className={styles.aDiv}>
             <div>
               <a
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://github.com/manish7377/ShoppersStop_Clone"
               >
                 Github
@@ -40,7 +40,7 @@ function Projects() {
             </div>
             <div>
               <a
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://shoppersstop-clone-sigma.vercel.app/"
               >
                 Demo
@@ -80,14 +80,14 @@ function Projects() {
           <div className={styles.aDiv}>
             <div>
               <a
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://github.com/manish7377/milaap-clone"
               >
                 Github
               </a>
             </div>
             <div>
-              <a target="_blank" href="https://milapp-clone.netlify.app">
+              <a target="_blank" rel="noreferrer" href="https://milapp-clone.netlify.app">
                 Demo
               </a>
             </div>
@@ -125,7 +125,7 @@ function Projects() {
           <div className={styles.aDiv}>
             <div>
               <a
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://github.com/manish7377/buffer"
               >
                 Github
@@ -133,7 +133,7 @@ function Projects() {
             </div>
             <div>
               <a
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://manish7377.github.io/buffer/index.html"
               >
                 Demo
@@ -166,12 +166,12 @@ function Projects() {
           </p>
           <div className={styles.aDiv}>
             <div>
-              <a target="_blank" href="https://github.com/manish7377/chat-app">
+              <a target="_blank" rel="noreferrer" href="https://github.com/manish7377/chat-app">
                 Github
               </a>
             </div>
             <div>
-              <a target="_blank" href="https://chat-app-by-manish.netlify.app">
+              <a target="_blank" rel="noreferrer" href="https://chat-app-by-manish.netlify.app">
                 Demo
               </a>
             </div>
