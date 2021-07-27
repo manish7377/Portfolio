@@ -33,7 +33,7 @@ function Projects() {
             <div>
               <a
                 target="_blank"
-                href="https://github.com/Shubhamsharma585/ShoppersStop_Clone"
+                href="https://github.com/manish7377/ShoppersStop_Clone"
               >
                 Github
               </a>
@@ -81,7 +81,7 @@ function Projects() {
             <div>
               <a
                 target="_blank"
-                href="https://github.com/tambegaurav/milaap-clone"
+                href="https://github.com/manish7377/milaap-clone"
               >
                 Github
               </a>
