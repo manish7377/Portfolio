@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../css/Contact.module.css";
-import stats1 from "../Images/stats1.png"; 
+import stats1 from "../Images/stats1.png";
 import stats2 from "../Images/stats2.png";
 import stats3_1 from "../Images/stats3.1.png";
 import stats3_2 from "../Images/stats3.2.png";
@@ -36,26 +36,41 @@ function ContacMe() {
         </div>
         <hr />
         <div className={styles.linkDiv}>
-          <a target="_blank" href="mailto:manishnayak.dev@gmail.com">
-            <img src={mail} alt="" />
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="mailto:manishnayak.dev@gmail.com"
+          >
+            <img width="20px" height="20px" src={mail} alt="" />{" "}
+            <span>manishnayak.dev@gmail.com</span>
           </a>
-          <a target="_blank" href="tel:+917008939103">
-            <img src={phone} alt="" />
+          <a target="_blank" rel="noreferrer" href="tel:+917008939103">
+            <img width="20px" height="20px" src={phone} alt="" />{" "}
+            <span>+917008939103</span>
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.google.co.in/maps/place/Balasore,+Odisha/@20.9516658,85.0985236,6z/data=!4m5!3m4!1s0x3a1c5f84f036e035:0x5cd332bf1c70157c!8m2!3d21.4939636!4d86.9128418"
           >
-            <img src={location} alt="" />
-          </a>
-          <a target="_blank" href="https://github.com/manish7377">
-            <img src={github} alt="" />
+            <img width="20px" height="20px" src={location} alt="" />{" "}
+            <span>Odisha,India</span>
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
+            href="https://github.com/manish7377"
+          >
+            <img width="20px" height="20px" src={github} alt="" />{" "}
+            <span>Github</span>
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/manish-kumar-nayak-154ab3159/"
           >
-            <img src={linkedin} alt="" />
+            <img width="20px" height="20px" src={linkedin} alt="" />{" "}
+            <span>Linkedin</span>
           </a>
         </div>
         <div>Designed by &#128151;Manish</div>
