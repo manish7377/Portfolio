@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../css/Contact.module.css";
-import stats1 from "../Images/stats1.png";
-import stats2 from "../Images/stats2.png";
+//import stats1 from "../Images/stats1.png";
+//import stats2 from "../Images/stats2.png";
 import stats3_1 from "../Images/stats3.1.png";
 import stats3_2 from "../Images/stats3.2.png";
 import github from "../Images/github.png";
@@ -9,16 +9,18 @@ import location from "../Images/location.png";
 import phone from "../Images/phone.png";
 import mail from "../Images/mail.png";
 import linkedin from "../Images/linkedin.png";
+//import GitHubCalendar from "react-github-calendar"
 
 function ContacMe() {
   return (
     <div className={styles.contactMain}>
       <div className={styles.statsDiv}>
         <div>
-          <img width="100%" src={stats1} alt="" />
+          <img width="100%" src="https://camo.githubusercontent.com/e3c712833ca826cdb0d22e1ccd9804097a0761690763c02ffbe2671d8ed08319/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6d616e697368373337372673686f775f69636f6e733d74727565266c6f63616c653d656e267468656d653d68696768636f6e7472617374" alt="" />
         </div>
         <div>
-          <img width="100%" src={stats2} alt="" />
+          <img width="100%" src="https://camo.githubusercontent.com/6825031fbe59f5501ab41bd7445d533ae0084cc7656748b4a5958fa8ff2afa34/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d6d616e69736837333737267468656d653d68696768636f6e7472617374" alt="" />
+         
         </div>
       </div>
       <div className={styles.statsDiv}>
